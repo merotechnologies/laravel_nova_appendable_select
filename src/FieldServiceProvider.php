@@ -1,6 +1,6 @@
 <?php
 
-namespace Mero\AppendableDynamicDropdown;
+namespace Merotech\AppendableDynamicDropdown;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -37,7 +37,7 @@ class FieldServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-             ->prefix('nova-vendor/mero/appendable-dynamic-dropdown')
+             ->prefix('nova-vendor/merotech/appendable-dynamic-dropdown')
              ->group(__DIR__ . '/../routes/api.php');
     }
 

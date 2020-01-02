@@ -1,5 +1,5 @@
 {
-    "name": "mero/appendable-dynamic-dropdown",
+    "name": "merotech/appendable-dynamic-dropdown",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Mero\\AppendableDynamicDropdown\\": "src/"
+            "Merotech\\AppendableDynamicDropdown\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mero\\AppendableDynamicDropdown\\FieldServiceProvider"
+                "Merotech\\AppendableDynamicDropdown\\FieldServiceProvider"
             ]
         }
     },

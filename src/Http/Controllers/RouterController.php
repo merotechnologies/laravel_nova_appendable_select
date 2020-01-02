@@ -1,6 +1,6 @@
 <?php
 
-namespace Mero\AppendableDynamicDropdown\Http\Controllers;
+namespace Merotech\AppendableDynamicDropdown\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

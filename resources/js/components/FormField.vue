@@ -50,7 +50,7 @@ export default {
          */
         setInitialValue() {
             this.responseOptions = null;
-            Nova.request().get(`/nova-vendor/mero/appendable-dynamic-dropdown/retrieve?modelName=${this.resourceName}&tableName=${this.field.attribute}`)
+            Nova.request().get(`/nova-vendor/merotech/appendable-dynamic-dropdown/retrieve?modelName=${this.resourceName}&tableName=${this.field.attribute}`)
             .then((response) => {
               // handle success
               this.responseOptions = response.data;

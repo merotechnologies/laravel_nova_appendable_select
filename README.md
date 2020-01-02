@@ -1,7 +1,7 @@
 # Nova Appendable Select
 
 <img src="https://mero.co/wp-content/uploads/2019/03/merologotransparent-136x60.png" align="right"
-     title="Mero Logo" width="136" height="60">
+     title="Merotech Logo" width="136" height="60">
 
 Nova Appendable Select is a multi field that contains a select element and an input element. The select elements populates based on the Nova resource you are calling the component from and the tableName you pass as seen below. 
 
@@ -12,7 +12,7 @@ In the example above we add this to the Nova Resource Router. So this multi fiel
 
 ## Who Uses Nova Appendable Select
 
-* [Mero](https://mero.co) we built this :D 
+* [Merotech](https://mero.co) we built this :D 
 
 ## Usage
 
@@ -24,12 +24,12 @@ Suitable when you want a dynamic select field that is populated based on a model
 
 1. Install the preset:
 	```
-    $ composer require mero/nova-appendable-select
+    $ composer require merotech/nova-appendable-select
 	```
 
 2. Add the Nova Field Component to your Nova resource
 	```
-    use Mero\AppendableDynamicDropdown\AppendableDynamicDropdown;
+    use Merotech\AppendableDynamicDropdown\AppendableDynamicDropdown;
 	```
 	
 3. You're all set!

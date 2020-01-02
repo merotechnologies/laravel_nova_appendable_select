@@ -1,6 +1,6 @@
 <?php
 
-namespace Mero\AppendableDynamicDropdown;
+namespace Merotech\AppendableDynamicDropdown;
 
 use Laravel\Nova\Fields\Field;
 
